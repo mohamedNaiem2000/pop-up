@@ -1,0 +1,27 @@
+.divshow {
+  width: 100%;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  box-sizing: border-box;
+  display: none;
+  position: fixed;
+  height: 100vh;
+  display: none;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+.divshow .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.divshow .close {
+  display: inline;
+  text-align: center;
+}
